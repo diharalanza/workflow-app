@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+
+  <body>
+
+    <h3>Welcome to idkWhatToCallThisYet! Click the '+' button to add an app / file / link / folder .</h3>
+
+    <div id="addNewWorkflow">
+
+      <div>
+        <label for="nameFlow">Name your Workflow:</label>
+        <input type="text" id="nameFlow" name="nameFlow"></input>
+        <button id="addApp">+</button>
+      </div>
+
+      <div id = "addedPaths"> 
+      </div>
+      
+      <div>
+        <button id = "reset" onclick = "reset()">Reset list</button>
+        <button id="Save" onclick="save()">Save workflow</button>
+      </div>
+
+    </div>
+
+    <div id="allWorkflows">
+      <p>All your workflows:</p>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="helper.js"></script>
+  </body>
+</html>
